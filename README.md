@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner.png" alt="Project Banner" style="max-width: 100%; width: 800px;" />
+  <img src="docs/banner.png" alt="Project Banner" width="800"/>
 </p>
 
 # 🛠️ Plant Maintenance KPI Pipeline
