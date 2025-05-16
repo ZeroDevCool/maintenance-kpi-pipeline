@@ -1,0 +1,13 @@
+config {
+  type: "table"
+}
+
+SELECT
+  orden_id,
+  equipo,
+  tipo_mantenimiento,
+  DATE(fecha_creacion) AS fecha_creacion,
+  DATE(fecha_finalizacion) AS fecha_finalizacion,
+  tiempo_hrs
+FROM
+  `${ref("ordenes_mantenimiento")}`

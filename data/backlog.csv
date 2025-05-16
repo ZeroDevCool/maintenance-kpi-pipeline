@@ -1,0 +1,4 @@
+orden_id,equipo,fecha_creacion,estado,dias_pendientes
+2001,Bomba_4,2024-04-01,Pendiente,10
+2002,Motor_2,2024-04-02,Pendiente,8
+2003,Filtro_1,2024-04-03,En espera,5

@@ -1,0 +1,10 @@
+config {
+  type: "assertion"
+}
+
+SELECT *
+FROM ${ref("ordenes")}
+WHERE
+  tiempo_hrs <= 0
+  OR fecha_creacion IS NULL
+  OR fecha_finalizacion IS NULL

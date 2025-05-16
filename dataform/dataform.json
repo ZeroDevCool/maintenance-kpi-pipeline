@@ -1,0 +1,6 @@
+{
+  "warehouse": "bigquery",
+  "defaultSchema": "maintenance_kpis",
+  "defaultDatabase": "maintenance-kpi-demo",
+  "gcloudProjectId": "maintenance-kpi-demo"
+}

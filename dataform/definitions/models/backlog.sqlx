@@ -1,0 +1,12 @@
+config {
+  type: "table"
+}
+
+SELECT
+  orden_id,
+  equipo,
+  DATE(fecha_creacion) AS fecha_creacion,
+  estado,
+  dias_pendientes
+FROM
+  `${ref("backlog")}`

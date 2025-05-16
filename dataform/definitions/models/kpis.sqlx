@@ -1,0 +1,12 @@
+config {
+  type: "table"
+}
+
+SELECT
+  tipo_mantenimiento,
+  COUNT(*) AS total_ordenes,
+  AVG(tiempo_hrs) AS promedio_tiempo
+FROM
+  ${ref("ordenes")}
+GROUP BY
+  tipo_mantenimiento
